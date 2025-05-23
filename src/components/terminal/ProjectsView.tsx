@@ -60,6 +60,28 @@ Defenses & Mitigations:
     `,
     link: "https://github.com/intelligent-ears/esp32_timing-attack_simulation"
   },
+  {
+    id: "fault injection attack",
+    name: " ESP32-ESP8266 Fault Injection Attack",
+    description: "Fault Injection attack using an ESP32 as the glitcher and an ESP8266 as the vulnerable target",
+    tags: ["Fault Injection", "Arduino", "C++"],
+    details: `
+ A hardware-based voltage glitching attack using an ESP32 to bypass authentication on an ESP8266 by momentarily disturbing its power supply at precise moments
+
+Attack Flow:
+1. ESP8266 waits for a password input.
+2. ESP32 triggers a power glitch at a precise time.
+3. This disrupts a conditional check inside the ESP8266 firmware.
+4. If the glitch is timed right, authentication is bypassed.
+
+Defenses & Mitigations:
+- Voltage and Clock Monitoring
+- Randomized Execution Timing
+- Redundant Checks
+- Obfuscate Critical Code
+    `,
+    link: "https://github.com/intelligent-ears/fault_injection_attack_simulation"
+  },
  
  
 ];
