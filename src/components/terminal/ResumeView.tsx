@@ -18,7 +18,7 @@ const ResumeView: React.FC = () => {
         </div>
         
         <a 
-          href="https://drive.google.com/file/d/15cUYwkyLFWl_VM84AULVGh5dMMJa-DZ5/view?usp=sharing"
+          href="https://drive.google.com/file/d/1VA8hYoab_iPYrtRpo30T-_n0dzLUNPSC/view?usp=sharing"
           target="_blank"
           rel="noopener noreferrer"
           className="flex items-center bg-green-800 hover:bg-green-700 text-green-100 py-1 px-3 rounded text-sm focus:outline-none focus:ring-2 focus:ring-green-500 focus:ring-opacity-50 transition duration-200"
