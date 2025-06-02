@@ -36,6 +36,31 @@ Technologies:
     `,
     link: "https://github.com/intelligent-ears/SolSniffer"
   },
+   {
+    id: "CrypX",
+    name: "CrypX",
+    description: "A modular Python framework for block cipher cryptanalysis",
+    tags: ["Streamlit", "Numpy", "Sympy", "Docker", "Security", "Python"],
+    details: `
+Developed an open-source cryptanalysis toolkit to analyze custom block ciphers using differential, linear, and algebraic attacks; supports modular cipher uploads, visualizations, and Streamlit-based web interface.
+
+Features:
+- Implemented classical attacks: Differential, Linear, and Algebraic cryptanalysis.
+- Enabled users to upload custom cipher implementations and perform real-time analysis.
+- Integrated visualization tools (matplotlib, Streamlit) for better cryptanalysis insight.
+- Deployed web-based version using Streamlit Cloud and Docker for broader access.
+- Built with Python, using NumPy, SymPy, and matplotlib for core analysis logic.
+
+
+Technologies:
+- Python
+- Numpy
+- Sympy
+- Matplotlib
+- Streamlit
+    `,
+    link: "https://crypx0.streamlit.app/"
+  },
   {
     id: "side channel attack",
     name: " ESP32 Precise Timing Side-Channel Attack",
